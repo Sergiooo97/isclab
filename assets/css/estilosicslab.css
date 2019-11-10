@@ -1,0 +1,92 @@
+#grad {
+  background-image: linear-gradient(to bottom right, #a41e34, #ca2541);
+  padding-right: 2em;
+}
+
+div#tabla {
+  width: 50%;
+  height: 3em;
+  float: left;
+  background: rgb(255, 255, 255);
+}
+
+div#grafica {
+  width: 35%;
+  margin-left: 4em;
+  float: left;
+}
+.section {
+  background: #ffffff;
+}
+
+.activo {
+  border: 1px solid #9c3e52;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #9c3e52;
+}
+
+.inactivo {
+  border: 1px solid #ff6384;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #ff6384;
+}
+.activomenu {
+  background-image: linear-gradient(to bottom right, #a41e34, #ff5874);
+}
+.section {
+  margin-top: 4.5%;
+  background: #ffffff;
+}
+.containerm {
+  width: 10%;
+}
+.notifications {
+  animation-duration: 1s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.transicion--bouncelnDown {
+  animation-name: fadeIn;
+}
+@keyframes bouncelnDown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.notifications {
+  animation-duration: 0.4s;
+  animation-delay: 0.01s;
+}
+.notificationss {
+  animation-duration: 2s;
+  animation-delay: 0.01s;
+  animation-iteration-count: 1;
+}
+.notificationsss {
+  animation-duration: 0.6s;
+  animation-delay: 0.01s;
+  animation-iteration-count: 1;
+}
+.input {
+  text-align: start;
+  padding-left: 0px;
+}
+.info {
+  background: rgba(200, 200, 200, 0.144);
+  width: 10em;
+  font-size: 22px;
+  border: rgb(70, 70, 70);
+  border-radius: 8px;
+  float: left;
+}
+.label_info {
+  font-size: 16px;
+  float: left;
+  font-style: bold;
+}

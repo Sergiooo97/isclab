@@ -1,0 +1,251 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* input */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.5;
+}
+/* estilo para los botones */
+.enterbtn2{
+  position: absolute;
+  left: 45%;
+  top: 59%;
+  z-index: 7;
+  width: 6em;
+  height: 1.9em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  padding: 0 4px 0 4px;
+  background-color: #00000000;
+  font-size: 1.3em;
+  box-shadow: 12px 12px #00000000;
+  color: #ffffff;
+}
+.enterbtn {
+
+ background-color: #8e0000;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;}
+
+#but_entrar {
+  margin-left: 30px;
+}
+#spanUno {
+  margin-left: 40px;
+}
+#but_entrar2 {
+  margin-left: 210px;
+}
+/* boton cancelar */
+.cancelbtn {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #f44336;
+  margin-left: 260px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container {
+  padding: 50px;
+}
+.container2 {
+  padding: 10px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* parte desplegable */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 50px;
+  border-radius: 20px;
+
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 5% auto;
+  border: 1px solid #888;
+  width: 50%;
+
+}
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 1s;
+  -moz-linear-animation: animatezoom 1s;
+  animation: animatezoom 1s;
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+@-moz-linear-animation animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.logiin{
+  position: absolute;
+  left: 45%;
+  top: 59%;
+  z-index: 15;
+}
+div#id01{
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .enterbtn2{
+    position: absolute;
+    left: 15%;
+    top: 9%;
+    z-index: 7;
+    width: 6em;
+    height: 1.9em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    padding: 0 4px 0 4px;
+    background-color: #00000000;
+    font-size: 1.3em;
+    box-shadow: 12px 12px #00000000;
+    color: #ffffff;
+  }
+  .logiin{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 15;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.582);
+    padding-top: 100px;
+    border-radius: 10px;
+  
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10px auto 10px auto;
+    border: 1px solid #888;
+    width: 350px;
+    height: 350px;
+
+  
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    margin-left: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .container {
+    padding: 20px;
+  }
+  .container2 {
+    padding: 10px;
+  }
+  .enterbtn {
+
+    background-color: #8e0000;
+     color: white;
+     padding: 15px 20px;
+     margin: 10px 0;
+     border-radius: 10px;
+     cursor: pointer;
+    margin-left: 250px;}
+   
+   #but_entrar {
+     margin-left: 30px;
+   }
+   #spanUno {
+     margin-left: 40px;
+   }
+   #but_entrar2 {
+     margin-left: 10px;
+   }
+   input[type=text], input[type=password], input[type=email] {
+    width: 180px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #but_entrar {
+    margin-left: 100px;
+  }
+  #spanUno {
+    margin-left: 5px;
+    font-size: 8px;
+  }
+  #but_entrar2 {
+    margin-left: 85px;
+  }
+  #rec{
+    margin-left: 50px;;
+    font-size: 12px;
+  }
+  #psw{
+    color: mediumblue;
+  }
+
+  #regi{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  #regis{
+    font-size: 8px;
+    margin-left: 45px;
+  }
+ 
+}
